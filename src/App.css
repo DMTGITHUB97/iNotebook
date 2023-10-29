@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nameLimit{
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.namelimit_sm {
+	max-width:25%;
+    white-space: nowrap;
+    display:block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.namelimit_md {
+	max-width:50%;
+    white-space: nowrap;
+    display:block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.namelimit_lg {
+	max-width: 75%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.namelimit_lg1{
+	max-width: 90%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.namelimit_xl {
+	max-width: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.namelimit_sm_inline {
+	max-width:25%;
+    white-space: nowrap;
+    display:inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.namelimit_md_inline {
+	max-width:50%;
+    white-space: nowrap;
+    display:inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.namelimit_lg_inline {
+	max-width: 75%;
+	white-space: nowrap;
+	display:inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.namelimit_lg1_inline{
+	max-width: 90%;
+	white-space: nowrap;
+	display: inline_block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.namelimit_xl_inline {
+	max-width: 100%;
+	white-space: nowrap;
+	display:inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
